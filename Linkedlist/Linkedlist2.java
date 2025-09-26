@@ -24,13 +24,6 @@ public class Linkedlist2 {
             temp.next = t;
 
         }
-     
-        void getAt(int idx){
-            Node temp = head;
-            for(int i =0;i<idx;i++){
-                temp = temp.next;
-            }
-        }
         void printList() {
             Node temp = head;
 
